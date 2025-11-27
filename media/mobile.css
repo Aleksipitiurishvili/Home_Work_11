@@ -1,18 +1,23 @@
 @media (max-width: 605px) {
   .web_page {
     width: 100%;
-    padding: 24px;
+    /* padding: 24px; */
   }
   .pre_box {
     width: 150px;
     height: 48px;
   }
+  .header {
+    padding: 0px;
+  }
   .first_section {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .third_keyboard {
     display: block;
+    align-self: end;
     margin-top: 64px;
   }
   .secon_keyboard {
