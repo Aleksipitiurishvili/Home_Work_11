@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+  .web_page {
+    width: 100%;
+    padding-left: 36px;
+  }
+  .title {
+    font-size: 48px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .header {
+    padding-right: 40px;
+  }
+  .header {
+    margin-bottom: 62px;
+    margin-top: 40px;
+  }
+  .type_master {
+    gap: 34px;
+  }
+  .first_keyboard {
+    display: none;
+  }
+  .secon_keyboard {
+    display: block;
+  }
+  .second_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .orange_img {
+    width: 214px;
+    height: 320px;
+  }
+  .group_img {
+    width: 445px;
+    height: 320px;
+  }
+  .mechanical_keyboard {
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    margin-top: 72px;
+  }
+  .small_boxes {
+    flex-wrap: wrap;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .third_keyboard {
+    display: none;
+  }
+}

@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "medium";
+  src: url(./fonts/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: "bold";
+  src: url(./fonts/Barlow-SemiBold.ttf);
+}
+@font-face {
+  font-family: "light";
+  src: url(./fonts/Barlow-Light.ttf);
+}
+@font-face {
+  font-family: "extrabold";
+  src: url(./fonts/Barlow-ExtraBold.ttf);
+}
+
+.web_page {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 83px;
+  margin-top: 55px;
+}
+.tm_box {
+  font-family: "bold";
+  width: 40px;
+  height: 40px;
+  background-color: #f16718;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px;
+}
+.tm {
+  color: #ffffff;
+  font-family: "extrabold";
+}
+.pre_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "bold";
+  width: 175px;
+  height: 58px;
+  background-color: #e8eff2;
+  color: #162542;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.pre_order {
+  color: #162542;
+  font-size: 16px;
+  font-family: "bold";
+}
+.first_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type_master {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.title {
+  font-family: "extrabold";
+  font-size: 56px;
+  color: #162542;
+}
+p {
+  font-family: "medium";
+  font-size: 18px;
+  color: #7b8bad;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.orange_but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 58px;
+  background-color: #f16718;
+  border-radius: 8px;
+}
+.inside_orange_but {
+  color: #ffffff;
+  font-size: 16px;
+}
+.silver_text {
+  color: #7b8bad;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.second_section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.images {
+  display: flex;
+  gap: 30px;
+}
+.mechanical_keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.title1 {
+  font-family: "extraBold";
+  font-size: 32px;
+  color: #162542;
+}
+.small_boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 168px;
+  gap: 30px;
+}
+.first_small_box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.small_box_img {
+  margin-bottom: 48px;
+}
+.title2 {
+  font-family: "extrabold";
+  font-size: 24px;
+  color: #162542;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+  margin-bottom: 38px;
+}
+.secon_keyboard {
+  display: none;
+}
+.mini_orange_keyboard {
+  display: none;
+}
+.third_keyboard {
+  display: none;
+}
+.xmini_orange_keyboard {
+  display: none;
+}
+.mini_group_img {
+  display: none;
+}

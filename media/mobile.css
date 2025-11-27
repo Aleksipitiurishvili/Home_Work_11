@@ -1,0 +1,55 @@
+@media (max-width: 605px) {
+  .web_page {
+    width: 100%;
+    padding: 24px;
+  }
+  .pre_box {
+    width: 150px;
+    height: 48px;
+  }
+  .first_section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .third_keyboard {
+    display: block;
+    margin-top: 64px;
+  }
+  .secon_keyboard {
+    display: none;
+  }
+  .orange_but {
+    width: 150px;
+    height: 48px;
+  }
+
+  .xmini_orange_keyboard {
+    display: block;
+  }
+  .group_img {
+    display: none;
+  }
+  .mini_group_img {
+    display: block;
+  }
+  .orange_img {
+    display: none;
+  }
+  .second_section {
+    display: flex;
+  }
+  .images {
+    gap: 24px;
+  }
+  .mechanical_keyboard {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+  .small_boxes {
+    justify-content: center;
+    text-align: center;
+  }
+}
