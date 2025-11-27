@@ -19,6 +19,11 @@
     width: 100%;
     justify-content: flex-start;
   }
+  .img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
 
   .third_keyboard {
     display: block;
