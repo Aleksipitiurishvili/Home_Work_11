@@ -43,6 +43,9 @@
   font-size: 16px;
   padding: 5px;
 }
+.:hover {
+  background-color: #ff9b62;
+}
 .tm {
   color: #ffffff;
   font-family: "extrabold";
@@ -59,10 +62,16 @@
   border-radius: 8px;
   font-size: 16px;
 }
+.pre_box:hover {
+  background-color: #162542;
+}
 .pre_order {
   color: #162542;
   font-size: 16px;
   font-family: "bold";
+}
+.pre_order:hover {
+  color: #ffffff;
 }
 .first_section {
   display: flex;
@@ -97,6 +106,9 @@ p {
   height: 58px;
   background-color: #f16718;
   border-radius: 8px;
+}
+.orange_but:hover {
+  background-color: #ff9b62;
 }
 .inside_orange_but {
   color: #ffffff;
@@ -151,6 +163,10 @@ p {
   justify-content: center;
   margin-top: 128px;
   margin-bottom: 38px;
+}
+span {
+  color: #162542;
+  opacity: 0.8;
 }
 .secon_keyboard {
   display: none;
