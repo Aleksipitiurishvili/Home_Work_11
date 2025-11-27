@@ -1,7 +1,7 @@
 @media (max-width: 605px) {
   .web_page {
     width: 100%;
-    padding: 0;
+    padding: 10px;
   }
   .pre_box {
     width: 150px;
