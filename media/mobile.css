@@ -15,9 +15,14 @@
     align-items: center;
     width: 100%;
   }
+  .images {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
   .third_keyboard {
     display: block;
-    align-self: end;
+    align-self: flex-end;
     margin-top: 64px;
   }
   .secon_keyboard {
