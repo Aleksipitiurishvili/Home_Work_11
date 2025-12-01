@@ -23,6 +23,7 @@
 .web_page {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 95%;
   margin: 0 auto;
 }
@@ -59,18 +60,21 @@
   color: #162542;
   border-radius: 8px;
   font-size: 16px;
+  border: none;
+  margin-right: 165px;
 }
 .pre_box:hover {
   background-color: #162542;
+  color: white;
 }
 .pre_order {
   color: #162542;
   font-size: 16px;
   font-family: "bold";
 }
-.pre_order:hover {
+/* .pre_order:hover {
   color: #ffffff;
-}
+} */
 .first_section {
   display: flex;
   justify-content: space-between;
@@ -104,6 +108,8 @@ p {
   height: 58px;
   background-color: #f16718;
   border-radius: 8px;
+  border: none;
+  color: white;
 }
 .orange_but:hover {
   background-color: #ff9b62;
@@ -180,4 +186,30 @@ span {
 }
 .mini_group_img {
   display: none;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.grey {
+  display: flex;
+  width: 125px;
+  height: 240px;
+  background-color: #e8eff2;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.grey1 {
+  display: flex;
+  width: 125px;
+  height: 240px;
+  background-color: #e8eff2;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.images {
+  display: flex;
+  align-items: end;
+  gap: 30px;
 }

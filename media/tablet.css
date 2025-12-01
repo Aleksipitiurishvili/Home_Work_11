@@ -1,4 +1,4 @@
-@media (max-width: 1150px) {
+@media (max-width: 1250px) {
   .web_page {
     width: 100%;
     padding-left: 36px;
@@ -52,5 +52,14 @@
   }
   .third_keyboard {
     display: none;
+  }
+  .grey {
+    display: none;
+  }
+  .grey1 {
+    display: none;
+  }
+  .pre_box {
+    margin-right: 0px;
   }
 }

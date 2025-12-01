@@ -46,6 +46,7 @@
   }
   .mini_group_img {
     display: block;
+    width: 200px;
   }
   .orange_img {
     display: none;
@@ -66,5 +67,14 @@
   .small_boxes {
     justify-content: center;
     text-align: center;
+  }
+  .grey {
+    display: none;
+  }
+  .grey1 {
+    display: none;
+  }
+  .pre_box {
+    margin-right: 0px;
   }
 }
